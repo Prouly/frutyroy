@@ -1,0 +1,5 @@
+CREE MANUALMENTE EL USUARIO PARA SU BBDD CON ESTOS PARÁMETROS:
+
+
+Usuario: Frutero
+Password: 123fruta

@@ -1,0 +1,253 @@
+html{
+  cursor: url('../img/kiwi.png'), default !important;
+}
+body {
+    font-family: Copperplate, Papyrus;
+    background-image: url('../img/main-background.jpg');
+    background-repeat: none;
+    background-position: auto;
+    background-size: cover;
+    color:#F72585;
+    letter-spacing: 4px;
+    cursor: url('../img/kiwi.png'), default !important;
+
+}
+
+
+#logo > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#dificultad{
+    background-color: azure;
+    opacity: 0.9;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#dificultad > a {
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+#resultado{
+    background-color: azure;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    padding-top: 10px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px;
+    color:#000000;
+    letter-spacing: 4px;
+    cursor: url('../img/kiwi.png'), default !important;
+}
+
+select {
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+select > option {
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#enviar {
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    background-color: #a945c7;
+    color: #fff;
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#enviar:hover {
+    background-color:#0f7688;
+}
+
+#ranking {
+    background-color: azure;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+
+}
+
+#ranking > a {
+    background-color: none;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    width: 420px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+
+#botones {
+    background-color: azure;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 3px;
+
+}
+
+#botones > p {
+    letter-spacing: 4px;
+    border-bottom: #F72585;
+}
+
+#botones > a {
+    background-color: none;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    width: 420px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+.botonNeon {
+    opacity: none;
+    background-image: none;
+    position: relative;
+    display: flex;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.botonNeon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+    color: #fff;
+    cursor: url('../img/kiwi2.png'),default !important;
+ }
+
+.botonNeon span{
+    position: absolute;
+    display: block;
+}
+
+.span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#a945c7);
+ }
+ .botonNeon:hover .span1{
+    left: 100%;
+    transition: 1s;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+ .span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#a945c7);
+}
+ .botonNeon:hover .span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+.span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#a945c7);
+}
+.botonNeon:hover .span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+.span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#a945c7);
+}
+.botonNeon:hover .span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+form > p {
+    font-size: 18px;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+form > #enviar {
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+#name {
+    font-size: 18px;
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    border-radius: 5px;
+}

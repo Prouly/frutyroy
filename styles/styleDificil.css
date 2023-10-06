@@ -1,0 +1,112 @@
+body {
+    font-family: Copperplate, Papyrus;
+    background-image: url('../img/aguacate-background.jpg');
+    background-position: 50%;
+    color:#F72585;
+    letter-spacing: 4px;
+    cursor: url('../img/kiwi.png'), default !important;
+    
+}
+
+#logo > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+#dificultad {
+    background-color: azure;
+    opacity: 0.9;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: url('../img/kiwi.png'), default !important;
+    
+}
+
+#dificultad > h1 > a {
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+#botones > a {
+    background-color: azure;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    width: 500px;
+    margin-bottom: 10px;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+
+form {
+    background-color: azure;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 480px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+form > input {
+    cursor: url('../img/kiwi2.png'),default !important;
+
+}
+
+#pts {
+    font-size: 18px;
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#actPuntos {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #a945c7;
+    color: #fff;
+    font-family: Copperplate, Papyrus;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+#actPuntos:hover {
+    background-color:#0f7688;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: url('../img/kiwi2.png'),default !important;
+}
+
+form > button {
+    position: relative;
+    display: block;
+    height: 77px;
+    width: 200px;
+    text-transform: uppercase;
+}
